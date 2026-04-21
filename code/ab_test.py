@@ -6,7 +6,7 @@ a_clicks = int(input("a 클릭수 : "))
 b_imps = int(input("b 노출수 : "))
 b_clicks = int(input("b 클릭수 : "))
 
-# 클릭률
+# 클릭률 = 노출수 / 클릭수
 a_ctr = float(a_clicks / a_imps)
 b_ctr = float(b_clicks / b_imps)
 
