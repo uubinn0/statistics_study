@@ -1,5 +1,5 @@
 # 📊 Data-Driven A/B Testing Project
-> 게임 데이터 기반 A/B 테스트 분석을 통해 유저 행동 변화를 검증하고, 데이터 기반 의사결정 방향을 제안하는 프로젝트입니다.
+> 데이터의 기반 의사결정 방향을 제안하는 프로젝트로, 해당 프로젝트에서는 
 
 ---
 
@@ -37,7 +37,7 @@
 ---
 
 ### 2. EDA
-- 기본 통계
+- 데이터 분포 및 기본 통계
 - retention 분포
 - 플레이 횟수 분포
 - 이상치 탐지
@@ -51,24 +51,26 @@
 - p-value
 - 신뢰구간 해석
 
-🔗 [실습 코드 보기](./code/03_preprocessing_and_segmentation.ipynb)
+🔗 [실습 코드 보기](./code/03_hypothesis_testing.ipynb)
 
 ---
 
-### 4. 결과 해석
-- 결과 해석 및 요약
-- 세그먼트별 차이 분석
-- 플레이 수와 retention 관계 분석
+### 4. 결과 해석 및 한계 논의
+- 실험 결과 해석
+- gate 변경 효과 논의
+- 추가 행동 분석의 한계
+- 데이터 구조적 제약
+- 추가로 필요한 데이터 제안
 
-🔗 [실습 코드 보기](./04_ab_test.ipynb)
+🔗 [실습 코드 보기](./code/04_result_interpretation.ipynb)
 
 ---
 
-### 5. 최종 결론 및 인사이트 도출
+### 5. 최종 결론
 - gate 위치 유지/변경 여부
 - 비즈니스 관점 해석
 
-🔗 [프로젝트 보기](./code/final_insights.ipynb)
+🔗 [프로젝트 보기](./code/final_conclusion.ipynb)
 
 ---
 
