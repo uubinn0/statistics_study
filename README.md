@@ -1,20 +1,20 @@
 # 📊 Game Data A/B Testing Project
 모바일 퍼즐 게임 **Cookie Cats**의 A/B 테스트 데이터를 활용하여 게임 내 gate(허들) 위치 변경이 유저의 retention에 미치는 영향을 분석한 프로젝트입니다. 
 
----
+<br/>
 
 ## ✨ Key Findings
 
 > gate_40은 gate_30 대비 더 낮은 retention을 보였으나, 이 차이가 통계적으로 유의하다고 판단할 충분한 근거가 확인되지 않았습니다. 현재 분석 결과만으로 gate 위치 변경이 retention에 유의한 수준의 영향을 준다고 결론을 내리기 어렵다고 판단되며, 로그 데이터 기반의 추가 행동 분석이 함께 이뤄진다면 retention 개선으로 이어질 수 있는 요인을 구체적으로 확인할 수 있을 것으로 예상됩니다.
 
----
+<br/>
 
 ## 🎯 프로젝트 목표
 
 - 게임 내 gate 위치 변경이 유저 retention에 미치는 영향을 A/B 테스트 기반으로 검증
 - 통계 검정 및 Bootstrapping을 통해 실험 결과의 신뢰성과 불확실성 분석
 
----
+<br/>
 
 ## 📚 프로젝트 상세
 
@@ -24,10 +24,10 @@
 - 가설 설정
 - KPI 정의
 
-🔗 [실습 코드 보기](./code/01_data_overview.ipynb)
-🔗 [데이터설명](./data/README.md)
+🔗 [코드 보기](./code/01_data_overview.ipynb)
+🔗 [데이터 설명](./data/README.md)
 
----
+   
 
 ### 2. EDA
 - 데이터 분포 및 기본 통계
@@ -35,26 +35,25 @@
 - 플레이 횟수 분포
 - 이상치 탐지
 
-🔗 [실습 코드 보기](./code/02_EDA.ipynb)
+🔗 [코드 보기](./code/02_EDA.ipynb)
 
----
 
 ### 3. 가설 검증
 - Z-Test 기반 가설 검증
 - bootstrap resampling 기반 retention 차이 검증
 
-🔗 [실습 코드 보기](./code/03_hypothesis_testing.ipynb)
+🔗 [코드 보기](./code/03_hypothesis_testing.ipynb)
 
----
+   
 
 ### 4. 결과 해석 및 한계점
 - 실험 결과 해석
 - 추가 행동 분석의 한계
 - 추가적으로 필요한 데이터 제안
 
-🔗 [실습 코드 보기](./code/04_result_interpretation.ipynb)
+🔗 [코드 보기](./code/04_result_interpretation.ipynb)
 
----
+<br/>
 
 ## 🛠️ 사용 기술
 - Python
@@ -63,7 +62,7 @@
 - Pandas
 - Matplotlib / seaborn
 
----
+<br/>
 
 ## 🚀 향후 개선
 
@@ -74,7 +73,8 @@
 - 스테이지별 이탈 패턴 분석
 - 플레이 패턴 기반 유저 세그먼트 분석
 - Cohort 기반 retention 변화 분석
----
+
+<br/>
 
 ## 📌 느낀 점
 
