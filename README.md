@@ -1,5 +1,5 @@
 # 📊 Game Data A/B Testing Project
-모바일 퍼즐 게임 **Cookie Cats**의 A/B 테스트 데이터를 활용하여 게임 내 gate(허들) 위치 변경이 유저의 retention에 미치는 영향을 분석한 프로젝트입니다.
+모바일 퍼즐 게임 **Cookie Cats**의 A/B 테스트 데이터를 활용하여 게임 내 gate(허들) 위치 변경이 유저의 retention에 미치는 영향을 분석한 프로젝트입니다. 
 
 ---
 
@@ -25,6 +25,7 @@
 - KPI 정의
 
 🔗 [실습 코드 보기](./code/01_data_overview.ipynb)
+🔗 [데이터설명](./data/README.md)
 
 ---
 
